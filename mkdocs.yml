@@ -1,0 +1,37 @@
+# Project information
+site_name: Deluge Documentation
+
+# Repository
+repo_url: https://github.com/seangoodvibes/DelugeDocs
+edit_uri: edit/main/docs/
+
+# Configuration
+theme:
+    name: material
+    palette: 
+        scheme: slate
+        primary: black
+        accent: yellow
+    features:
+        - content.action.edit
+        - navigation.tabs     
+        - navigation.expand 
+
+# Navigation
+nav:
+  - Welcome:
+    - index.md
+  - Introduction:
+    - What can the Deluge do?: introduction/what-can-the-deluge-do.md 
+    - Concepts: introduction/concepts.md
+  - Getting Started:
+    - Firmware: getting-started/firmware.md
+    - Device Overview: 
+        - Diagram: getting-started/device-overview/diagram.md
+        - Power: getting-started/device-overview/power.md
+        - Controls:
+            - Knobs: getting-started/device-overview/controls/knobs.md
+            - Buttons: getting-started/device-overview/controls/buttons.md
+            - Pads: getting-started/device-overview/controls/pads.md
+        - Ports: getting-started/device-overview/ports.md
+        - Display: getting-started/device-overview/display.md
